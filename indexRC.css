@@ -1,0 +1,79 @@
+body{
+    background-color: grey;
+}
+#head{
+    /* color:white; */
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#under-line{
+    border:2px solid white;
+    width:250;
+    display: inline-block;
+}
+#under-line-container{
+    text-align: center;
+}
+#outline-container{
+    display: flex;
+    justify-content: center;
+
+}
+#main-container{
+    border:2px solid white;
+    height: 400px auto;
+    width:350px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    padding:20px;
+    background-color: white;
+    border-radius: 5px;
+}
+img{
+    border:2px solid black;
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    /* display: inline-block; */
+}
+#info{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+#left,#right{
+    font-size: 35px;
+    cursor: pointer;
+
+}
+#left-nav,#right-nav{
+    border: none;
+    background-color: white;
+    cursor:pointer;
+}
+#left:hover,#right:hover{
+    color:cornflowerblue;
+    cursor:pointer;
+
+}
+/* #double-quotes{
+    disp 
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    background-color: skyblue;
+    border: 2px solid black;
+} */
+#review{
+    font-family: 'Roboto Mono', monospace;
+    /* cursor:pointer; */
+
+}
+#suprise-me-div{
+    margin-top:10px;
+}
+#sm-btn{
+    cursor: pointer;
+    background-color:lightblue;
+}
